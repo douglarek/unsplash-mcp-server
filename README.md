@@ -4,8 +4,12 @@ A rewrite of the [Unsplash MCP Server](https://github.com/hellokaton/unsplash-mc
 
 ## Usage
 
+Before building, you must install go 1.24+ first.
+
 ```bash
-go build -o unsplash-mcp-server cmd/server/main.go
+git clone https://github.com/douglarek/unsplash-mcp-server.git
+cd unsplash-mcp-server
+make build
 ```
 
 ### Cursor Editor Integration
@@ -16,7 +20,7 @@ To use this server in Cursor, you can add the following to your `mcp.json` file:
 {
   "mcpServers": {
     "unsplash": {
-      "command": "<source_dir>/unsplash-mcp-server",
+      "command": "<source_dir>/cmd/server/unsplash-mcp-server",
       "args": [],
       "env": {
         "UNSPLASH_ACCESS_KEY": "<your_unsplash_access_key>"
