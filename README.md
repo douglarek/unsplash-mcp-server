@@ -1,5 +1,7 @@
 # Unsplash MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@douglarek/unsplash-mcp-server)](https://smithery.ai/server/@douglarek/unsplash-mcp-server)
+
 A rewrite of the [Unsplash MCP Server](https://github.com/hellokaton/unsplash-mcp-server) using the [mark3labs/mcp-go](https://github.com/mark3labs/mcp-go) library.
 
 ## Usage
